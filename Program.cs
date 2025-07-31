@@ -415,3 +415,22 @@
 //    }
 //    Console.WriteLine(i);
 //}
+
+using System;
+
+namespace First_CSharp;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        string[] cars = { "Mazda", "Honda", "Volvo", "BMW", "Toyota" };
+        Console.WriteLine("* * * *** Fruits List *** * * *");
+        Console.WriteLine("");
+        
+        foreach (string i in cars)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
